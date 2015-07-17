@@ -1,0 +1,136 @@
+		body {
+			font-family: 'philosopher', sans-serif;
+			margin: 0;
+			width: 100%;
+			height: 100%;
+			margin: auto;
+			text-align: center;
+			color: #fff;
+		}
+
+		header {
+			position: relative;
+			background-color: #000;
+			color:#fff;
+			font-size: 2em;
+		}
+
+		h1 {
+			font-family: 'philosopher', cursive;
+			font-size: 3em;
+			font-weight: bold;
+		}
+		h2 {
+			font-size: 2.5em;
+			margin: 0;
+			cursor: pointer;
+			line-height: 1.8em;
+		}
+		h2:hover {
+			font-size: 3em;
+			font-weight: 700;
+			color: #005CE6;
+		  transition-duration:.20s;
+		  transition-timing-function:ease-in-out;
+		  text-decoration: none;
+		}
+
+		.lucy {
+			width:32em;
+			height:38em;
+			float:left;
+			margin-top: -3em;
+			border:2em outset #842222;
+		}
+		ul {
+			color: #000;
+			font-size: 
+			text-align: left;
+			margin-top: 120px;
+		}
+		ul.letters {
+			color: #000;
+			text-align: right;
+			width: 1100px;
+		}
+		li {
+			display: inline-block;
+			list-style: none;
+			width: 60px;
+			height: 45px;
+			border-radius: 60px;
+			background: #fff;
+			text-align: center;
+			padding-top: 15px;
+			font-size: 30px;
+			margin: 15px;
+		}
+		article {
+			position: relative;
+			width: 100%;
+			height: 370px;
+			margin-top: 400px;
+			overflow: hidden;
+			border-top: 4px solid #fff;
+			border-bottom: 4px solid #fff;
+		}
+		article img {
+			position: absolute;
+			bottom:0;
+			left: 0;
+		}
+		article p {
+			position: absolute;
+			width: 100%;
+			margin-top: 70px;
+			text-transform: uppercase;
+			color: #fff;
+			font-size: 7em;
+		}
+		div.container-info {
+/*			color: #333;
+*/			font-size: 1.2em;
+		}
+		
+		footer{
+			padding-top: 10em;
+			
+		}
+
+		button {
+			font-size: 2em;
+			color: orange;
+			background-color: #1063cd;
+			padding: 1em 2em;
+			border-radius: 60%;	
+			border: outset;
+			border-width: 15px;
+			cursor: pointer;
+		}
+
+		button:hover {
+			border-color: Orange;
+			background-color: darkblue;
+		}
+
+
+
+p.cred,
+p.intro-main,
+p.e-q,
+p.phil,
+p.ped,
+p.tech {
+	display: none;
+	width: 75%;
+	margin: auto;
+	font-size: 1.7em;
+	color: #fff;
+}
+
+
+
+
+
+
+
